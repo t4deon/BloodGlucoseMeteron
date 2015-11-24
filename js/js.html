@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<script src="fhir.js"></script>
+
+	<script src="Chart.js"></script>
+	<script src="jquery.js"></script>
+	<script type="text/javascript">
+
+
+		$(document).ready(function(e)
+		{
+
+
+			var smart = FHIR.client({
+				serviceUrl: 'http://fhirtest.uhn.ca//baseDstu2',
+				patientId: getParameterByName('id')//'4310' // 124
+			});
+
+			smart.patient.read()
+					.then(function (p) {
+						$("#patient_name").html(p.text.div);
+					});
+
+//
+			var obs = smart.patient.api.search({type: 'Observation'});
+
+			var graphData = new Array();
+			var dateLabels = [];
+
+			obs.done(function(prescriptions){
+
+				prescriptions.data.entry.forEach(function(prescription){
+					var meds = prescription.resource.valueQuantity.value;
+
+					graphData.push(meds);
+					dateLabels.push(prescription.resource.effectiveDateTime);
+				});
+				var lineChartData = {
+					labels : dateLabels,
+					datasets : [
+						{
+							label: "blood glucose",
+							fillColor : "rgba(220,220,220,0.2)",
+							strokeColor : "rgba(220,220,220,1)",
+							pointColor : "rgba(220,220,220,1)",
+							pointStrokeColor : "#fff",
+							pointHighlightFill : "#fff",
+							pointHighlightStroke : "rgba(220,220,220,1)",
+							data : graphData
+						}
+					]
+				}
+
+				var ctx = document.getElementById("canvas").getContext("2d");
+				window.myLine = new Chart(ctx).Line(lineChartData, {
+					responsive: true,
+					bezierCurve: false
+
+				});
+			});
+		});
+		function getParameterByName(name) {
+			name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+			var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+					results = regex.exec(location.search);
+			return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+	</script>
+
+
+</head>
+<body>
+<div id="patient_name"></div>
+
+<div id="med_list"></div>
+
+<div style="width:70%;height:50%;">
+	<div>
+		<canvas id="canvas" height="450" width="600"></canvas>
+	</div>
+</div>
+
+
+</body>
+</html>

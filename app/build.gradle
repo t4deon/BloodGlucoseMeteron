@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+
+    defaultConfig {
+        applicationId "no.nordicsemi.android.nrftoolbox"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 39
+        versionName "1.16.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+}
+//    sourceCompatibility JavaVersion.VERSION_1_7
+//    targetCompatibility JavaVersion.VERSION_1_7
+//}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.google.android.gms:play-services-wearable:7.8.0'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:design:23.0.1'
+    compile 'no.nordicsemi.android.support.v18:scanner:0.1.1'
+    compile 'no.nordicsemi.android:log:2.0.0'
+    compile 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+    compile 'org.slf4j:slf4j-api:1.7.12'
+    compile 'org.slf4j:slf4j-android:1.7.12'
+//    compile('org.simpleframework:simple-xml:2.7.1') {
+//        exclude group: 'stax', module: 'stax-api'
+//        exclude group: 'xpp3', module: 'xpp3'
+//    }
+    compile project(':common')
+
+
+    compile 'com.loopj.android:android-async-http:1.4.9'
+
+    compile files('libs/hapi-fhir-android-1.3-SNAPSHOT-dstu2.jar')
+
+}

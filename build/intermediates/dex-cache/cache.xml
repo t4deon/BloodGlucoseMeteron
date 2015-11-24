@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/libs/httpclient-android-4.3.5.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/httpclient-android-4.3.5.1-7b363a2cf73800464744fe26c472c636ebbf0dc0.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-e17649160aa3eb58049fc59e8306a660ce6d4851.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.5.1/eecbb0b998e77629862a13d957d552b3be58fc4e/httpclient-android-4.3.5.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/release/httpclient-android-4.3.5.1-50d531efffc28d8c9fc57788790cf37cdcc84ab9.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/classes-4331f3b19773760a98fe0a269bbb6bf9235ef87a.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/libs/commons-codec-1.10.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/commons-codec-1.10-e939e004022149bc4d81b554a18d170c48750fa6.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/classes-c9b25c6995151dc02e618fcf84f6dc8fca6803e8.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/exploded-aar/nrfToolsStriped/common/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a9f6052881d31738b0ed4555a533b4f9b572261">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/classes-2f689f82df796dc5ff23b009cc244b92e4bd061f.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/exploded-aar/no.nordicsemi.android/log/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="09fe5b28a21fba9348128dfd390d9c6cf7a4fcbd">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/classes-54956027a3ca2c223f97647d44c994853b4a8eeb.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/libs/hapi-fhir-android-1.3-SNAPSHOT-dstu2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1861553183a659a8e8d557da80d7b82c01132f0b">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/hapi-fhir-android-1.3-SNAPSHOT-dstu2-b0c5514177d9b78c844a3196079c9f39dd7ad137.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/libs/commons-lang3-3.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/commons-lang3-3.4-cd1f705324313ab36bb0f0f7fc7e985376eb5622.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/exploded-aar/no.nordicsemi.android.support.v18/scanner/0.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="564665effcb7a36a56bf71ddf048c350d4dee4ea">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/classes-0b7dd3b038c5490e694c78c15c314a840e4cb9dd.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Data/Development/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-8cb32e5a1de14975b59b49479e20d07eb99058e6.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/classes-72ce05337b9eaff99d34ca9f6905ec81380617a1.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6-5f45615f32d05bb275f1900dbbf548427da19e19.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/libs/achartengine-1.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/achartengine-1.1.0-78aac5fff254db7c33934bc165bb1f9d36bf34e2.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/classes-ed22f273d5a8ee46dccfc9193eebaff611c9de8d.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/commons-io-2.4-9ddd072ccd44cf8b693c45fc3d8871501b9da073.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9-2073a177ccaee70a05111f7954b14ea4be43cca1.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.12/8e20852d05222dc286bf1c71d78d0531e177c317/slf4j-api-1.7.12.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8e20852d05222dc286bf1c71d78d0531e177c317">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.12-d4be8667c6e96203eae528dc2eb6b33ad4b7990c.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/classes-9e2cb5049996d55054415b3eb9a3d4e7a9a58768.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/libs/slf4j-android-1.7.12.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="16d02a21e200a67e6ae6bbb3367eebe062a4a769">
+        <dex dex="/Users/Andi/Desktop/fhir/nrfToolsStriped/app/build/intermediates/pre-dexed/debug/slf4j-android-1.7.12-30f445f53961a3344577ef893a4721749c81e02a.jar/classes.dex" />
+    </item>
+
+</items>
