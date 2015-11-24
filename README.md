@@ -11,8 +11,8 @@ Android 4.4 and Bluetooth Low Energy is required.
 ## Notes
 1. Please note that the app is just a prototype. Though the code quality is not at its finest and it may contain bugs.  
    Do not use this app in a real world scenario as it was just designed for testing purposes. 
-2. The app is based on [nrfToolbox](https://github.com/NordicSemiconductor/Android-nRF-Toolbox) by Nordic Semiconductors. 
-   Most of the code is not necessary. Just the classes in the package **gls** are primarly used.
+2. The app is based on **[nrfToolbox](https://github.com/NordicSemiconductor/Android-nRF-Toolbox)** by Nordic Semiconductors.
+   Most of the code is not necessary. Just the classes in the package **gls** are primarily used.
 
 ## License
 The app is licensed under the MIT License.
