@@ -1,10 +1,11 @@
 # BloodGlucoseMeteron
-This is our award winning 'Blood Glucose Meteron' app.
-It was created to play around with the new FHIR standard in context of the FHIR Dev Days 2015 in Amsterdam. It is the winner of the Student Track at the FHIR DevDays 2015.
-There is also a little website that displays the sent data in a graph.
+This is our award winning 'Blood Glucose Meteron' app.    
+It was created to play around with the new FHIR standard in context of the FHIR Dev Days 2015 in Amsterdam. It is the winner of the Student Track at the FHIR DevDays 2015.    
+There is also a little website that displays the sent data in a graph.    
+We publish our code so other students or anyone else who wants to get started with FHIR has an example how to do it in Java.
 
 ## Structure
-folder js: website that displays the data using SMART for FHIR 
+folder js: website that displays the data using SMART for FHIR   
 rest: app
 
 ## Features
