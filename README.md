@@ -20,5 +20,6 @@ Android 4.4 and Bluetooth Low Energy is required.
 2. The app is based on **[nrfToolbox](https://github.com/NordicSemiconductor/Android-nRF-Toolbox)** by Nordic Semiconductors.
    Most of the code is not necessary. Just the classes in the package **gls** are primarily used.
 
-## License
-The app is licensed under the MIT License.
+## Credits
+* The app is based on **[nrfToolbox](https://github.com/NordicSemiconductor/Android-nRF-Toolbox)** by Nordic Semiconductors
+* [HAPI FHIR - Java API for HL7 FHIR Clients and Servers](https://github.com/jamesagnew/hapi-fhir/)
